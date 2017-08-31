@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Nitrogen Project
+     Copyright (C) 2020-21 OctaviOS
+	 Copyright (C) 2024 AuroraDroid
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/aurora_droid_title" >
+
+        <!-- Status Bar -->
+	<Preference
+	    android:layout="@layout/cardview"
+            android:summary="@string/statusbar_summary"
+	    android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:fragment="com.aurora.droid.fragments.StatusBarSettings" 
+            android:icon="@drawable/statusbar"/>
+
+        <!-- QuickSettings -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/qs_summary"
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.aurora.droid.fragments.QuickSettings"
+            android:icon="@drawable/qspanel"/>
+
+        <!-- Notification -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/notif_summary"
+            android:key="notifications_category"
+            android:title="@string/notifications_category"
+            android:fragment="com.aurora.droid.fragments.NotificationSettings"
+            android:icon="@drawable/notif"/>
+
+        <!-- Themes -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/theme_summary"
+            android:key="themes_category"
+            android:title="@string/themes_title"
+            android:fragment="com.aurora.droid.fragments.AuroraThemes"
+            android:icon="@drawable/themes"/>
+
+        <!-- Volume -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/volume_summary"
+            android:key="volume_category"
+            android:title="@string/volume_title"
+            android:fragment="com.aurora.droid.fragments.VolumeRockerSettings"
+            android:icon="@drawable/volume"/>
+
+        <!-- Buttons -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/nav_summary"
+            android:key="buttonsettings_category"
+            android:title="@string/navbar_title"
+            android:fragment="com.aurora.droid.fragments.ButtonSettings"
+            android:icon="@drawable/nav"/>
+
+        <!-- Gesture -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/gesture_summary"
+            android:key="gesture_category"
+            android:title="@string/gesture_title"
+            android:fragment="com.aurora.droid.fragments.GestureSettings"
+            android:icon="@drawable/gesture"/>
+
+        <!-- Power Menu -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/power_summary"
+            android:key="power_category"
+            android:title="@string/power_title"
+            android:fragment="com.aurora.droid.fragments.PowermenuSettings"
+            android:icon="@drawable/power"/>
+
+        <!-- Lock Screen -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/lockscreen_summary"
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="com.aurora.droid.fragments.LockScreenSettings"
+            android:icon="@drawable/uituner"/>
+
+        <!-- Misc -->
+        <Preference
+            android:layout="@layout/cardview"
+            android:summary="@string/misc_summary"
+            android:key="misc_category"
+            android:title="@string/misc_title" 
+            android:fragment="com.aurora.droid.fragments.MiscSettings"
+            android:icon="@drawable/extra"/>
+</PreferenceScreen>

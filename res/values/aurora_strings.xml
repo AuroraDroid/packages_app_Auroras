@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Copyright (C) 2020 OctaviOS
+     Copyright (C) 2024 AuroraDroid
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="aurora_droid_title">Aurora</string>
+
+    <!-- Categories -->
+    <string name="button_category">Buttons</string>
+    <string name="system_category">System</string>
+    <string name="notifications_category">Notifications</string>
+    <string name="ambient_settings_category">Ambient Settings</string>
+    <string name="lock_screen_elements_category">Lock screen elements</string>
+    <string name="misc_apps_category">Apps</string>
+    <string name="misc_spoof_category">Device spoofing</string>
+    
+    <string name="search">Search</string>
+
+    <string name="statusbar_summary">Clock &amp; date, Traffic Indicator, Battery Styles, Volte Icons, Notification counts</string>
+    <string name="qs_summary">QS Rows &amp; Columns, Data Usage, QS media player, QS Clock styles, Tile titles</string>
+    <string name="notif_summary">Heads UP, Battery charging light, Ambient, Notification Headers, Re-ticker</string>
+    <string name="theme_summary">RGB picker, Icon packs, Icon shapes, Brightness slider style, Gvisual mod, Navbar styles</string>
+    <string name="volume_summary">Swap position, Volume panel styles, Playback control, Per app volume, Volume wake, Volume cursor</string>
+    <string name="nav_summary">Hardware buttons key binding and Navigation tuning like Gesture/Two button/Three button</string>
+    <string name="gesture_summary">Three finger Screenshot, Double tap to sleep on Lockscreen/Status bar, Long press power button</string>
+    <string name="power_summary">Power menu customisation like Advance reboot and power menu opacity</string>
+    <string name="lockscreen_summary">Lockscreen shortcuts, FP icon, lock icon, Charging animation, Media art, AOD icons on Lockscreen</string>
+    <string name="misc_summary">Smart Pixels, Signature spoofing, Animations, Scrolling Cache, Hide apps from recents</string>
+
+    <!-- Header titles -->
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="statusbar_title">StatusBar</string>
+    <string name="notif_title">Notifications</string>
+    <string name="power_title">Power Menu</string>
+    <string name="gesture_title">Gestures</string>
+    <string name="navbar_title">Navigation Menu</string>
+    <string name="themes_title">Aurora Theming</string>
+    <string name="volume_title">Volume Panel</string>
+    <string name="lockscreen_title">Lockscreen</string>
+    <string name="misc_title">Miscellaneous</string>
+
+</resources>

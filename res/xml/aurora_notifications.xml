@@ -19,4 +19,9 @@
     android:title="@string/notifications_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.aurora.droid.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="false" />
 </PreferenceScreen>

@@ -28,6 +28,13 @@
                android:summary="@string/ignore_window_secure_summary"
                android:defaultValue="false"/>
 
+         <!-- Component spoofing -->
+        <Preference
+            android:key="spoofing"
+            android:title="@string/spoofing_title"
+            android:summary="@string/spoofing_summary"
+            android:fragment="com.aurora.droid.fragments.Spoofing" />
+  
     </PreferenceCategory>
 
 </PreferenceScreen>

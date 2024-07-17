@@ -58,4 +58,9 @@
     <string name="network_traffic_units_title">Traffic measurement units</string>
     <string name="network_traffic_units_bits" translatable="false">kbps, Mbps, Gbps</string>
     <string name="network_traffic_units_bytes" translatable="false">kB/s, MB/s, GB/s</string> 
+
+    <!-- Data disabled icon -->
+    <string name="statusbar_network">Network Icons</string>
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 </resources>
